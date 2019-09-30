@@ -11,4 +11,3 @@ Threading is most beneficial for IO-bound tasks over CPU-bound, i.e. where we're
 Multiprocessing is most beneficial for CPU-bound tasks, by running them in parallel.
 
 Threading gives the illusion of having all the threads run the code at the same time - instead, it uses the IO waiting time to move ahead with the script. But code is not actually run simulataneously.
-
